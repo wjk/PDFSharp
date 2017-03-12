@@ -1,5 +1,7 @@
 <Project>
   <PropertyGroup>
+    <AssemblyTitle Condition="'$(AssemblyTitle)' == '' and '$(TargetName)' != ''">$(TargetName)</AssemblyTitle>
+
     <Authors Condition="'$(Authors)' == ''">William Kent</Authors>
     <Copyright Condition="'$(Copyright)' == ''">Copyright © 2017 William Kent. All rights reserved.</Copyright>
     <Description Condition="'$(Description)' == '' and '$(AssemblyTitle)' != ''">$(AssemblyTitle)</Description>
