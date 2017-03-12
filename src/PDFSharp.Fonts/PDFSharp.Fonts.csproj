@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <NetStandardImplicitPackageVersion>2.0.0-beta-25108-01</NetStandardImplicitPackageVersion>
+    <AssemblyTitle>PDFSharp.Fonts</AssemblyTitle>
+  </PropertyGroup>
+
+  <Import Project="../dir.targets" />
+</Project>
