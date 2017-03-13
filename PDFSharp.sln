@@ -2,8 +2,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{34F4AB88-2EB3-45AE-8114-2E09150D5CB2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFSharp.Fonts", "src\PDFSharp.Fonts\PDFSharp.Fonts.csproj", "{47745055-51F2-4D9A-96D0-0EFA8679D21E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFSharp.Geometry", "src\PDFSharp.Geometry\PDFSharp.Geometry.csproj", "{85D306E2-4FE2-456A-940F-6C2979996375}"
@@ -59,10 +57,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{47745055-51F2-4D9A-96D0-0EFA8679D21E} = {34F4AB88-2EB3-45AE-8114-2E09150D5CB2}
-		{85D306E2-4FE2-456A-940F-6C2979996375} = {34F4AB88-2EB3-45AE-8114-2E09150D5CB2}
-		{8BE3D616-FF84-4656-ABAB-FBF20E0CCF35} = {34F4AB88-2EB3-45AE-8114-2E09150D5CB2}
 	EndGlobalSection
 EndGlobal
